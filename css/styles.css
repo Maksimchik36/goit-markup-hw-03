@@ -15,7 +15,12 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
 }
 /* -------HEADER----- */
 /* for test delete */
@@ -145,6 +150,12 @@ body {
 }
 
 /* ----Наша специализация---- */
+/* delete test */
+.specialization {
+  border: 2px solid green;
+  padding-bottom: 94px;
+}
+
 .specialization-title {
   margin: 0;
   padding: 0;
@@ -158,8 +169,15 @@ body {
 /* ----Наша команда---- */
 .team {
   background-color: #f5f4fa;
+  border: 2px solid tomato;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -167,6 +185,9 @@ body {
 }
 
 .team-personality {
+  margin: 0;
+  padding: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -174,6 +195,9 @@ body {
 }
 
 .team-positions {
+  margin: 0;
+  padding: 0;
+
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
