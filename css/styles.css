@@ -11,7 +11,19 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /* -------HEADER----- */
+/* for test delete */
+
+.header {
+  border: 2px solid blue;
+}
+
 /*----отключение подчеркивания в ссылках----*/
 .link {
   text-decoration: none;
@@ -19,6 +31,9 @@ body {
 
 /*----отключение точек в списках----*/
 .list {
+  padding: 0;
+  margin: 0;
+
   list-style: none;
 }
 
@@ -69,9 +84,19 @@ body {
 
 .solutions {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+/* DELETE */
+.solutions {
+  border: 2px solid yellow;
 }
 
 .solutions-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,7 +117,16 @@ body {
 }
 
 /* ----Наши особенности----*/
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  border: 2px solid salmon;
+}
+
 .feature-title {
+  margin: 0;
+  padding: 0;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -101,6 +135,9 @@ body {
 }
 
 .feature-text {
+  margin: 0;
+  padding: 0;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -109,6 +146,9 @@ body {
 
 /* ----Наша специализация---- */
 .specialization-title {
+  margin: 0;
+  padding: 0;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -216,7 +256,6 @@ address {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 
 /* Сброс наклонного шрифта, который автоматом ставится в этом тэге */
 address {
