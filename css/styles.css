@@ -30,11 +30,6 @@ img {
   height: auto;
 }
 /* -------HEADER----- */
-/* for test delete */
-
-.header {
-  border: 2px solid blue;
-}
 
 /*----отключение подчеркивания в ссылках----*/
 .link {
@@ -71,10 +66,6 @@ img {
   margin-left: 93px;
 }
 
-.nav-item {
-  border: 2px solid red;
-}
-
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -99,10 +90,6 @@ img {
 .contacts-list {
   display: flex;
   margin-left: auto;
-}
-
-.contacts-item {
-  border: 2px solid blue;
 }
 
 .contacts-item:not(:last-child) {
@@ -142,10 +129,6 @@ img {
   padding-bottom: 200px;
   text-align: center;
 }
-/* DELETE */
-.solutions {
-  border: 2px solid yellow;
-}
 
 .solutions-title {
   margin-top: 0;
@@ -173,7 +156,6 @@ img {
 /* ----Наши особенности----*/
 .feature {
   padding-bottom: 0;
-  border: 2px solid salmon;
 }
 
 .feature-title {
@@ -200,7 +182,6 @@ img {
 /* ----Наша специализация---- */
 /* delete test */
 .specialization {
-  border: 2px solid green;
   padding-bottom: 0;
 }
 
@@ -229,7 +210,6 @@ img {
   padding-bottom: 0;
 
   background-color: #f5f4fa;
-  border: 2px solid tomato;
 }
 .team-title {
   margin: 0;
@@ -247,8 +227,18 @@ img {
   display: flex;
 }
 
+.team-item {
+  width: 270px;
+}
+
 .team-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-information {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .team-personality {
@@ -264,6 +254,7 @@ img {
 .team-positions {
   margin: 0;
   padding: 0;
+  margin-top: 10px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -356,7 +347,39 @@ address {
 .list-buttons {
   display: flex;
   margin-bottom: 34px;
+  justify-content: center;
 }
 .list-buttons .buttons:not(:last-child) {
   margin-right: 8px;
+}
+
+.activities-list .title {
+  padding: 0;
+  margin: 0;
+}
+
+.activities-list .text {
+  padding: 0;
+  margin: 0;
+}
+
+.activities-list .blue-image {
+  padding: 0;
+  margin: 0;
+}
+
+.activities-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activities-item {
+  width: 370px;
+}
+
+.activities-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.activities-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
