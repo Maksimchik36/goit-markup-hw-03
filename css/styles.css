@@ -146,6 +146,7 @@ img {
 }
 
 .solutions button {
+  padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -154,6 +155,8 @@ img {
   cursor: pointer;
   color: var(--third-color);
   background-color: var(--accent-color);
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 /* ----Наши особенности----*/
@@ -164,12 +167,24 @@ img {
 .feature-title {
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+}
+.feature-item {
+  width: 270px;
+}
+.feature-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .feature-text {
