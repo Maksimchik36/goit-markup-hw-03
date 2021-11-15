@@ -26,6 +26,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* -------HEADER----- */
 /* for test delete */
@@ -204,12 +206,22 @@ img {
 
 .specialization-title {
   margin: 0;
+  margin-bottom: 50px;
   padding: 0;
 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.specialization-list {
+  display: flex;
+}
+
+.specialization-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ----Наша команда---- */
@@ -228,6 +240,15 @@ img {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-personality {
@@ -330,4 +351,12 @@ address {
 /* Сброс наклонного шрифта, который автоматом ставится в этом тэге */
 address {
   font-style: normal;
+}
+
+.list-buttons {
+  display: flex;
+  margin-bottom: 34px;
+}
+.list-buttons .buttons:not(:last-child) {
+  margin-right: 8px;
 }
