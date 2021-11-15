@@ -48,6 +48,8 @@ img {
 }
 
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -59,8 +61,27 @@ img {
 .logo > span {
   color: var(--accent-color);
 }
+.nav-list {
+  display: flex;
+}
+
+.nav {
+  margin-left: 93px;
+}
+
+.nav-item {
+  border: 2px solid red;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -73,7 +94,24 @@ img {
   color: var(--accent-color);
 }
 
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-item {
+  border: 2px solid blue;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contacts-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,6 +125,10 @@ img {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+.container.main {
+  display: flex;
+  align-items: center;
 }
 
 /* -------------MAIN------------------ */
