@@ -19,6 +19,11 @@ body {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 img {
   display: block;
 }
@@ -123,8 +128,7 @@ img {
 
 /* ----Наши особенности----*/
 .feature {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 0;
   border: 2px solid salmon;
 }
 
@@ -153,7 +157,7 @@ img {
 /* delete test */
 .specialization {
   border: 2px solid green;
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 
 .specialization-title {
@@ -168,10 +172,10 @@ img {
 
 /* ----Наша команда---- */
 .team {
+  padding-bottom: 0;
+
   background-color: #f5f4fa;
   border: 2px solid tomato;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .team-title {
   margin: 0;
